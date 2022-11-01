@@ -79,6 +79,10 @@ nav>ul>li>a:hover {
     color: #fe5341;
     margin-left: 20px;
 }
+.login:hover{
+    background-color: #fe5341;
+    color: #fff;
+}
 /* 尾部 */
 dl{
     float: left;
