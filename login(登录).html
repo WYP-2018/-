@@ -24,19 +24,19 @@
             <nav>
                 <ul>
                     <li class="on">
-                        <a href="./index.html">首页</a>
+                        <a href="../index.html">首页</a>
                     </li>
                     <li>
-                        <a href="">酷玩</a>
+                        <a href="../play(酷玩模块)/index(最新).html">酷玩</a>
                     </li>
                     <li>
-                        <a href="">导购</a>
+                        <a href="../guid(导购模块)/index.html">导购</a>
                     </li>
                     <li>
-                        <a href="">试用</a>
+                        <a href="../use（试用模块）/index.html">试用</a>
                     </li>
                     <li>
-                        <a href="">报告</a>
+                        <a href="../report（报告模块）/index.html">报告</a>
                     </li>
                 </ul>
             </nav>
@@ -50,7 +50,7 @@
             <div class="dl-2">
                 <p><input type="text" placeholder="请输入用户名"></p>
                 <p><input type="password" placeholder="请输入密码"></p>
-                <button>立即注册</button>
+                <button onclick="fn()">登录</button>
             </div>
         </div>
     </div>
@@ -157,6 +157,9 @@
 
 </html>
 <script>
+    // 找到两个输入框
+    var inp = document.getElementsByTagName('input')[0];
+    var inp_ = document.getElementsByTagName('input')[1];
     // 封装一个查找cookie
     function getCookie(key) {
 
@@ -175,10 +178,23 @@
         }
 
     }
-    // 找到两个输入框
-    var inp = document.getElementsByTagName('input')[0];
-    var inp_ = document.getElementsByTagName('input')[1];
-    if (getCookie() == inp.value && getCookie() == inp_.value) {
-        console.log('登录成功！！！');
+    function fn() {
+
+        if (getCookie('用户名') == inp.value && getCookie('密码') == inp_.value) {
+            location.href = 'http://127.0.0.1:5500/index.html';
+            window.event.returnValue = false;
+
+        } else {
+            alert('登陆错误')
+        }
     }
+    var yh = getCookie('用户名');
+    var mm = getCookie('密码');
+    function show() {
+        if (getCookie('用户名') != null) {
+            inp.value = yh;
+            inp_.value = mm;
+        }
+    }
+    show();
 </script>

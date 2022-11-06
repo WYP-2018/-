@@ -17,7 +17,7 @@ function fn() {
         p.innerHTML = '货源不足，不能再申请啦！！！';
     }
 }
-var timer = setInterval(function() {
+var timer = setInterval(function () {
     var nowtime = new Date();
     var gotime = new Date(2022, 10, 18, 5, 37, 0);
     var cha = gotime - nowtime;
@@ -32,3 +32,30 @@ var timer = setInterval(function() {
         clearInterval(timer);
     }
 }, 1000)
+
+var zhuce = document.getElementsByClassName('login')[0];
+// console.log(zhuce);
+function getCookie(key) {
+
+    var arry = document.cookie.split('; ');
+
+    for (var item of arry) {
+
+        var newArry = item.split('=');
+
+        if (newArry[0] == key) {
+
+            return newArry[1];
+
+        }
+
+    }
+
+}
+var yongh = getCookie('用户名');
+if (yongh != undefined) {
+    zhuce.innerHTML = yongh;
+    zhuce.style.border = 'none';
+}
+
+

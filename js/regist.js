@@ -139,7 +139,7 @@ psw2.onblur = function () {
 button.onclick = function () {
     // var userV = user.value;
     if (right == true && right1 == true && right2 == true) {
-        location.href = 'http://127.0.0.1:5500/index.html';
+        location.href = 'http://127.0.0.1:5500/login(%E7%99%BB%E5%BD%95).html';
         window.event.returnValue = false;
         setCookie('用户名', user.value);
         setCookie('手机号', tel.value);
