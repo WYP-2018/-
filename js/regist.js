@@ -28,13 +28,13 @@ var span6 = document.getElementsByTagName('span')[5];
 // console.log(span5);
 // console.log(span6);
 
-tel.onfocus = function () {
+tel.onfocus = function() {
     span1.innerText = '请输入手机号';
     span1.className = 'block';
 }
-tel.onblur = function () {
+tel.onblur = function() {
     var reg = /^(0|86|17951)?(13[0-9]|15[012356789]|166|17[3678]|18[0-9]|14[57])[0-9]{8}$/;
-    right = reg.test(tel.value);  //true
+    right = reg.test(tel.value); //true
     if (tel.value == '') {
         span1.innerText = '手机号为空';
         span1.className = 'red';
@@ -47,8 +47,8 @@ tel.onblur = function () {
     }
 }
 
-pic.onblur = function () {
-    if (pic.value == 'r2B7') {      //r2B7
+pic.onblur = function() {
+    if (pic.value == 'r2B7') { //r2B7
         span2.innerText = '输入正确';
         span2.className = 'green';
     } else {
@@ -73,10 +73,12 @@ var huoqu = document.getElementsByClassName('getCode')[0];
 // console.log(huoqu);
 var num = 60;
 var time;
+
 function dianji() {
     clearInterval(time);
     time = setInterval(fn, 1000);
 }
+
 function fn() {
     num = --num;
     huoqu.innerText = num + '秒后重发';
@@ -87,13 +89,13 @@ function fn() {
     }
 }
 
-user.onfocus = function () {
+user.onfocus = function() {
     span4.innerText = '用户名由6位数字构成';
     span4.className = 'block';
 }
-user.onblur = function () {
+user.onblur = function() {
     var reg = /^\d{6}$/;
-    right1 = reg.test(user.value);     //true
+    right1 = reg.test(user.value); //true
     if (user.value == '') {
         span4.innerHTML = '用户名为空';
         span4.className = 'red';
@@ -105,13 +107,13 @@ user.onblur = function () {
         span4.className = 'green';
     }
 }
-psw1.onfocus = function () {
+psw1.onfocus = function() {
     span5.innerText = '由数字字母下划线组成，密码长度不能小于6位';
     span5.className = 'block';
 }
-psw1.onblur = function () {
+psw1.onblur = function() {
     var reg = /^\w{6,}$/;
-    right2 = reg.test(psw1.value);      //true
+    right2 = reg.test(psw1.value); //true
     if (psw1.value == '') {
         span5.innerText = '密码不能为空';
         span5.className = 'red';
@@ -123,23 +125,24 @@ psw1.onblur = function () {
         span5.className = 'green';
     }
 }
-psw2.onfocus = function () {
+psw2.onfocus = function() {
     span6.innerText = '请再次输入密码';
 }
-psw2.onblur = function () {
-    if (psw1.value == psw2.value) {
-        span6.innerText = '输入正确';
-        span6.className = 'green';
-    } else {
-        span6.innerText = '输入错误';
-        span6.className = 'red';
+psw2.onblur = function() {
+        if (psw1.value == psw2.value) {
+            span6.innerText = '输入正确';
+            span6.className = 'green';
+        } else {
+            span6.innerText = '输入错误';
+            span6.className = 'red';
+        }
     }
-}
-// console.log(button);
-button.onclick = function () {
+    // console.log(button);
+button.onclick = function() {
     // var userV = user.value;
     if (right == true && right1 == true && right2 == true) {
-        location.href = 'http://127.0.0.1:5500/login(%E7%99%BB%E5%BD%95).html';
+        alert('注册成功');
+        window.location.href = './login(登录).html';
         window.event.returnValue = false;
         setCookie('用户名', user.value);
         setCookie('手机号', tel.value);

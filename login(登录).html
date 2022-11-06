@@ -69,13 +69,11 @@
                     </dt>
                     <dd>
                         全球酷玩试用导购平台
-                        <br>
-                        酷·新奇·好玩·品质
+                        <br> 酷·新奇·好玩·品质
                     </dd>
                     <dd>
                         微信添加“JguoJguo”
-                        <br>
-                        获取我们的服务。
+                        <br> 获取我们的服务。
                     </dd>
                 </dl>
                 <dl>
@@ -178,18 +176,20 @@
         }
 
     }
+
     function fn() {
 
         if (getCookie('用户名') == inp.value && getCookie('密码') == inp_.value) {
-            location.href = 'http://127.0.0.1:5500/index.html';
+            alert('登录成功');
+            window.location.href = './index.html';
             window.event.returnValue = false;
-
         } else {
             alert('登陆错误')
         }
     }
     var yh = getCookie('用户名');
     var mm = getCookie('密码');
+
     function show() {
         if (getCookie('用户名') != null) {
             inp.value = yh;
