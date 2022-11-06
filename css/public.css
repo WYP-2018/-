@@ -75,8 +75,15 @@ nav>ul>li>a:hover {
     color: #fe5341;
     margin-left: 20px;
 }
+<<<<<<< HEAD
 
 
+=======
+.login:hover{
+    background-color: #fe5341;
+    color: #fff;
+}
+>>>>>>> 85ebbb4b2f80fdfef5c4f083650fd5f90b193912
 /* 尾部 */
 
 dl {
