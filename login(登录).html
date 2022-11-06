@@ -156,3 +156,29 @@
 </body>
 
 </html>
+<script>
+    // 封装一个查找cookie
+    function getCookie(key) {
+
+        var arry = document.cookie.split('; ');
+
+        for (var item of arry) {
+
+            var newArry = item.split('=');
+
+            if (newArry[0] == key) {
+
+                return newArry[1];
+
+            }
+
+        }
+
+    }
+    // 找到两个输入框
+    var inp = document.getElementsByTagName('input')[0];
+    var inp_ = document.getElementsByTagName('input')[1];
+    if (getCookie() == inp.value && getCookie() == inp_.value) {
+        console.log('登录成功！！！');
+    }
+</script>

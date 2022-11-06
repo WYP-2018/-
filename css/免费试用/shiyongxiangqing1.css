@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sec1 {
+    background: url(../../img/original.jpg) no-repeat -200px 0px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.sec1>.div1 {
+    width: 900px;
+    height: 250px;
+    margin: 20px auto;
+    color: white;
+    animation: div1 .5s linear forwards;
+    z-index: 5;
+}
+
+@keyframes div1 {
+    0% {
+        transform: translate(400px, -300px);
+    }
+
+    100% {}
+}
+
+.sec1>.div1>p {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.sec1>.div1>.p1 {
+    font-size: 35px;
+}
+
+.sec1>.div1>.p2 {
+    font-size: 20px;
+}
+
+.sec1>.div1>.p2>span {
+    display: inline-block;
+    background-color: rgb(248, 211, 157);
+    margin-left: 10px;
+    padding: 0 10px;
+}
+
+.sec1>.div1>.p3 {
+    font-size: 25px;
+}
+
+.sec1>.div1>button {
+    float: right;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(252, 76, 76);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* 内容部分 */
+.box {
+    padding-top: 1px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 102px;
+    background-color: #F0F0F0;
+}
+
+.box1 {
+    width: 1000px;
+    height: 62px;
+    margin: 20px auto;
+}
+
+.box1>span {
+    display: inline-block;
+}
+
+.box1>span:nth-of-type(1) {
+
+    font-size: 20px;
+    width: 43px;
+    padding-left: 11px;
+    border-left: 6px #fe5341 solid;
+}
+
+.box1>span:nth-of-type(2) {
+
+    border-bottom: 1px solid #fe5341;
+}
+
+.box1>span:nth-of-type(1)~span {
+    color: #737373;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 118px;
+    padding-top: 45px;
+}
+
+.box1>span:nth-of-type(2) {
+    background: url(../../img/use1.png)no-repeat 7px 3px;
+}
+
+.box1>span:nth-of-type(3) {
+    background: url(../../img/use2.png)no-repeat 7px 3px;
+}
+
+.box1>span:nth-of-type(4) {
+    background: url(../../img/use3.png)no-repeat 0px 3px;
+}
+
+.box1>span:nth-of-type(5) {
+    background: url(../../img/use4.png)no-repeat 7px 3px;
+}
+
+.box1>span:nth-of-type(6) {
+    background: url(../../img/use5.png)no-repeat 7px 3px;
+}
+
+/* 主体部分 */
+.maxbox {
+    overflow: hidden;
+
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.max1 {
+    width: 700px;
+
+}
+
+.maxbox p {
+    line-height: 1.6;
+}
+
+.max1>p:nth-of-type(1) {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #737373;
+    padding-left: 12px;
+    border-left: 5px solid #ff1900;
+}
+
+.max1>p:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 15px 0px;
+    color: #FF0000;
+}
+
+.blue {
+    font-weight: 600;
+    color: #0070C0;
+}
+
+.jieshao {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #737373;
+    padding-left: 12px;
+    border-left: 5px solid #ff1900;
+}
+
+.x {
+    color: #0070C0;
+}
+
+.red {
+    color: #ff1900;
+    font-weight: 600;
+}
+
+.max1>p>span {
+    font-weight: 600;
+}
+
+
+.max1 {
+    float: left;
+}
+
+.max2 {
+    width: 275px;
+    float: right;
+}
+
+.max2>p:nth-of-type(1),
+.max2>p:nth-of-type(4),
+.max2>p:nth-of-type(13) {
+    font-size: 18px;
+    color: #737373;
+    padding-left: 12px;
+    border-left: 5px solid #ff1900;
+}
+
+.max2>p:nth-of-type(4) {
+    margin-bottom: 22px;
+}
+
+.max2>p:nth-of-type(2) {
+    font-size: 40px;
+    padding: 20px 0 15px;
+    color: #ff1900;
+}
+
+.max2>button {
+    color: #fff;
+    background: #fe5341;
+    width: 278px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+}
+
+.max2>p:nth-of-type(3) {
+    text-align: center;
+    margin: 10px 0px;
+    color: #A3A3A3;
+}
+
+.fl {
+    font-weight: 600;
+    margin: 8px 0px;
+}
+
+.gray {
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+.max2>p:nth-of-type(13) {
+    margin: 30px 0px 20px 0px;
+
+}
+
+/* 内容尾部 */
+@keyframes fn {
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: 0.2;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0.2;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0.2;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body .max3 ul {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+body .max3 ul li {
+    margin-top: 30px;
+}
+
+body .max3 ul li a {
+    display: inline-block;
+    width: 220px;
+    height: 286px;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+    color: #333;
+    position: relative;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+body .max3 ul li a:hover img {
+    animation: fn 10s reverse;
+}
+
+body .max3 ul li a img {
+    width: 220px;
+    height: 130px;
+}
+
+body .max3 ul li a>span {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+}
+
+body .max3 ul li a p {
+    margin-top: 3px;
+}
+
+body .max3 ul li a p:nth-of-type(1) span {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 2px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    width: 40px;
+    color: #CFCCCC;
+    font-size: 14px;
+}
+
+body .max3 ul li a p:nth-of-type(2) {
+    font-size: 16px;
+}
+
+body .max3 ul li a p:nth-of-type(2) span {
+    color: #FE5341;
+}
+
+body .max3 ul li a p:nth-of-type(3) {
+    color: #CFDBED;
+    font-size: 14px;
+}
+
+body .max3 ul li a font {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 22px;
+    font-size: 12px;
+    background-color: #FE5341;
+    color: #fff;
+    top: 0;
+    right: 0;
+    border-radius: 0px 8px;
+    line-height: 22px;
+}
+
+body .max3 ul li a:nth-of-type(1)~a {
+    margin-left: 35px;
+}
+
+body .max3 ul li a:nth-of-type(2n)>p:nth-of-type(1)>span {
+    color: #FE5341;
+}
+
+body .max3 .bt {
+    display: inline-block;
+    width: 146px;
+    text-align: center;
+    color: #FE5341;
+    margin: 50px 686px;
+    background: url(../../img/more.png) no-repeat 0px 7px;
+}
+
+body .bt:hover {
+    cursor: pointer;
+}
+
+.max3>p {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.max3>p>span:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.max3>p>span:nth-of-type(2) {
+    color: #ff1900;
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 14px;
+    float: right;
+    background: url(../../img/readMore.png)no-repeat 61px 10px;
+}
+
+.max3 {
+    margin-top: 2370px;
+}
