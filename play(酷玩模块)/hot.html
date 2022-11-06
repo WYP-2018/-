@@ -5,11 +5,370 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>酷玩最热</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/kuwanzuire.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <script src="../js/ajax.js"></script>
 </head>
 
 <body>
-    <!-- 酷玩页面的hot页 -->
+    <!-- 头部 -->
+    <header>
+        <div class="banxin">
+            <!-- logo -->
+            <div class="logo left">
+                <a href="../index.html">
+                    <img src="../img/logonew.png" alt="" width="132px">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="on">
+                        <a href="../index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">酷玩</a>
+                    </li>
+                    <li>
+                        <a href="../guid(导购模块)/index.html">导购</a>
+                    </li>
+                    <li>
+                        <a href="../use（试用模块）/DZshiyong.html">试用</a>
+                    </li>
+                    <li>
+                        <a href="../report（报告模块）/index.html">报告</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="../regist(注册).html" class="right login">注册</a>
+            <a href class="search right"></a>
+        </div>
+    </header>
+    <!-- 主体部分 -->
+    <!-- 第一部分 -->
+    <section class="sec1">
+        <p>发现酷玩</p>
+        <a href="./index(最新).html">最新</a>
+        <a href="#">最热</a>
+        <a href="./category(品类).html">品类</a>
+    </section>
+    <!-- 第二部分 -->
+    <section class="sec2">
+        <div class="div1">发现酷玩
+            <a href="../index.html">查看更多</a>
+        </div>
+        <ul id="ul1">
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k4.jpg" alt="">
+                    <p>SCiO 微型光谱仪<br><span>可以测定食物成分及营养</span></p>
+                    <div class="d1">
+                        <span>￥ 1212</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k3.jpg" alt="">
+                    <p>B&O BeoSound 35 音响<br><span>支持所有音乐流媒体服务</span></p>
+                    <div class="d1">
+                        <span>￥ 512</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k2.jpg" alt="">
+                    <p>Mozbii 触控吸色笔<br><span>能吸取65000种颜色</span></p>
+                    <div class="d1">
+                        <span>￥ 暂无</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k1.jpg" alt="">
+                    <p>XPLORER 2 航拍飞行器<br><span>搭载自动避障系统</span></p>
+                    <div class="d1">
+                        <span>￥ 433</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k4.jpg" alt="">
+                    <p>SCiO 微型光谱仪<br><span>可以测定食物成分及营养</span></p>
+                    <div class="d1">
+                        <span>￥ 1212</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k2.jpg" alt="">
+                    <p>B&O BeoSound 35 音响<br><span>支持所有音乐流媒体服务</span></p>
+                    <div class="d1">
+                        <span>￥ 512</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k3.jpg" alt="">
+                    <p>Mozbii 触控吸色笔<br><span>能吸取65000种颜色</span></p>
+                    <div class="d1">
+                        <span>￥ 暂无</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k1.jpg" alt="">
+                    <p>XPLORER 2 航拍飞行器<br><span>搭载自动避障系统</span></p>
+                    <div class="d1">
+                        <span>￥ 433</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k2.jpg" alt="">
+                    <p>SCiO 微型光谱仪<br><span>可以测定食物成分及营养</span></p>
+                    <div class="d1">
+                        <span>￥ 1212</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k3.jpg" alt="">
+                    <p>B&O BeoSound 35 音响<br><span>支持所有音乐流媒体服务</span></p>
+                    <div class="d1">
+                        <span>￥ 512</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k1.jpg" alt="">
+                    <p>Mozbii 触控吸色笔<br><span>能吸取65000种颜色</span></p>
+                    <div class="d1">
+                        <span>￥ 暂无</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k4.jpg" alt="">
+                    <p>XPLORER 2 航拍飞行器<br><span>搭载自动避障系统</span></p>
+                    <div class="d1">
+                        <span>￥ 433</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k1.jpg" alt="">
+                    <p>SCiO 微型光谱仪<br><span>可以测定食物成分及营养</span></p>
+                    <div class="d1">
+                        <span>￥ 1212</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k2.jpg" alt="">
+                    <p>B&O BeoSound 35 音响<br><span>支持所有音乐流媒体服务</span></p>
+                    <div class="d1">
+                        <span>￥ 512</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k3.jpg" alt="">
+                    <p>Mozbii 触控吸色笔<br><span>能吸取65000种颜色</span></p>
+                    <div class="d1">
+                        <span>￥ 暂无</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="../use（试用模块）/shiyongxiangqing.html">
+                    <img src="../img/k4.jpg" alt="">
+                    <p>XPLORER 2 航拍飞行器<br><span>搭载自动避障系统</span></p>
+                    <div class="d1">
+                        <span>￥ 433</span>
+                        <div class="d2">
+                            <span class="sp1">3</span>
+                            <span class="sp2">3</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="div2">
+            <a href="#" onclick="show()">点击加载更多</a>
+        </div>
+    </section>
+    <!-- 尾部 -->
+    <footer>
+        <!-- 版心 -->
+        <section class="wrap">
+            <!-- 版心上部分 -->
+            <div class="top">
+                <dl>
+                    <img src="../img/code.png" alt="" width="160" height="160">
+                </dl>
+                <dl>
+                    <dt>
+                    <img src="../img/logoImg.jpg" alt="">
+                </dt>
+                    <dd>
+                        全球酷玩试用导购平台
+                        <br> 酷·新奇·好玩·品质
+                    </dd>
+                    <dd>
+                        微信添加“JguoJguo”
+                        <br> 获取我们的服务。
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>免费试用</dt>
+                    <dd>
+                        <a href="#">试用流程</a>
+                    </dd>
+                    <dd><a href="#">如何提高成功率</a></dd>
+                </dl>
+                <dl>
+                    <dt>友情链接</dt>
+                    <dd>
+                        <a href="#">智东西</a>
+                        <a href="#">WEIBUSI</a>
+                    </dd>
+                    <dd>
+                        <a href="#">搜狐IT</a>
+                        <a href="#">腾讯科技</a>
+                    </dd>
+                    <dd>
+                        <a href="#">搜狐数码</a>
+                        <a href="#">凤凰科技</a>
+                    </dd>
+                    <dd>
+                        <a href="#">凤凰数码</a>
+                        <a href="#">PConline</a>
+                    </dd>
+                    <dd>
+                        <a href="#">泡泡网</a>
+                        <a href="#">3W咖啡</a>
+                    </dd>
+                    <dd>
+                        <a href="#">ZUK社区</a>
+                        <a href="#">亿觅emie</a>
+                    </dd>
+                    <dd>
+                        <a href="#">极客公园</a>
+                        <a href="#">易迅易启玩</a>
+                    </dd>
+                    <dd>
+                        <a href="#">果库</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>购买攻略</dt>
+                    <dd>
+                        <a href="#">美亚海淘教程</a>
+                    </dd>
+                    <dd>
+                        <a href="#">日亚海淘教程</a>
+                    </dd>
+                    <dd>
+                        <a href="#">海淘转运攻略</a>
+                    </dd>
+                    <dd>
+                        <a href="#">kickstarter 众筹购买攻略</a>
+                    </dd>
+                    <dd>
+                        <a href="#">indiegogo 众筹购买攻略</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>厂商合作</dt>
+                    <dd><a href="#">关于极果</a></dd>
+                    <dd>
+                        <a href="#">联系我们</a>
+                    </dd>
+                    <dd><a href="#">商务合作：BD@jiguo.com</a></dd>
+                    <dd><a href="#">CEO邮箱：CEO@jiguo.com</a></dd>
+                </dl>
+            </div>
+            <!-- 版心下部分 -->
+            <div class="bottom">
+                <p>© 2016 极果版权所有</p>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>

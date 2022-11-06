@@ -49,10 +49,6 @@ nav>ul>li {
     padding: 0 25px;
 }
 
-nav>ul>.on>a {
-    color: #fe5341;
-}
-
 nav>ul>li>a:hover {
     color: #fe5341;
 }
@@ -79,49 +75,62 @@ nav>ul>li>a:hover {
     color: #fe5341;
     margin-left: 20px;
 }
+
+
 /* 尾部 */
-dl{
+
+dl {
     float: left;
     font-size: 13px;
     padding-left: 22px;
     line-height: 20px;
 }
-dd>a{
+
+dd>a {
     color: #a3a3a3;
     font-size: 12px;
 }
-footer{
+
+footer {
     background: #505050;
     color: #a3a3a3;
     padding: 40px 0 15px;
 }
-.wrap{
+
+.wrap {
     width: 1000px;
     /* text-align: center; */
     margin: 0 auto;
 }
-.top{
+
+.top {
     width: 1000px;
     height: 205px;
 }
-.top>dl:nth-child(1){
+
+.top>dl:nth-child(1) {
     padding-left: 0;
 }
-.top>dl:nth-of-type(2){
+
+.top>dl:nth-of-type(2) {
     width: 140px;
 }
-.top>dl>dt{
+
+.top>dl>dt {
     color: #fff;
     font-size: 16px;
     padding-bottom: 25px;
 }
-.top>dl:nth-of-type(2)>dd:last-child{
+
+.top>dl:nth-of-type(2)>dd:last-child {
     margin-top: 13px;
 }
-.top>dl:nth-child(3){
+
+.top>dl:nth-child(3) {
     width: 100px;
 }
-.bottom>p{
+
+.bottom>p {
     text-align: center;
     padding-top: 80px;
     font-size: 13px;
