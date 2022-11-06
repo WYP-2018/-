@@ -80,13 +80,21 @@ nav>ul>li>a:hover {
     margin-left: 20px;
 }
 
-.login:hover {
+<<<<<<< HEAD .login:hover {
     background-color: #fe5341;
     color: #fff;
 }
 
 /* 尾部 */
-dl {
+=======<<<<<<< HEAD=======.login:hover {
+    background-color: #fe5341;
+    color: #fff;
+}
+
+>>>>>>>85ebbb4b2f80fdfef5c4f083650fd5f90b193912
+/* 尾部 */
+
+>>>>>>>7342e63c63196569643bea5f8329f6c88cd5ecf9 dl {
     float: left;
     font-size: 13px;
     padding-left: 22px;

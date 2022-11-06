@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img:hover {
+    animation: start 1.5s infinite;
+}
+
+
+/* 头部 */
+
+nav>ul>li:nth-of-type(2)>a {
+    color: #fe5341;
+}
+
+
+/* 第一部分 */
+
+.sec1 {
+    width: 1010px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sec1>p {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sec1>a {
+    display: inline-block;
+    padding: 10px 50px;
+    transform: translate(290px, 0px);
+}
+
+.sec1>a:nth-of-type(3) {
+    border-bottom: 5px red solid;
+}
+
+
+/* 第二部分 */
+
+.sec2 {
+    width: 1010px;
+    margin: 0 auto;
+}
+
+.sec2>div {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    border-left: 5px red solid;
+}
+
+.sec2>.ul1 {
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px #999 dashed;
+}
+
+.sec2>.ul1>li {
+    margin-left: 60px;
+    float: left;
+    margin-top: 20px;
+}
+
+.sec2>.ul1>li>a>p {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.sec2>.ul2 {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.sec2>.ul2>li {
+    width: 140px;
+    height: 30px;
+    margin-left: 22px;
+    float: left;
+    text-align: center;
+    color: #999;
+}
+
+.sec2>.ul3 {
+    width: 100%;
+    height: 180px;
+    border-bottom: 1px #999 dashed;
+}
+
+.sec2>.ul3>li {
+    margin-left: 60px;
+    float: left;
+    margin-top: 20px;
+}
+
+.sec2>.ul3>li>a>p {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.sec2>.ul4 {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.sec2>.ul4>li {
+    width: 100px;
+    height: 30px;
+    margin-left: 60px;
+    float: left;
+    text-align: center;
+    color: #999;
+}
+
+.sec2>.ul5 {
+    width: 100%;
+    height: 180px;
+    border-bottom: 1px #999 dashed;
+}
+
+.sec2>.ul5>li {
+    margin-left: 60px;
+    float: left;
+    margin-top: 20px;
+}
+
+.sec2>.ul5>li>a>p {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.sec2>.ul6 {
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px #999 dashed;
+}
+
+.sec2>.ul6>li {
+    margin-left: 60px;
+    float: left;
+    margin-top: 20px;
+}
+
+.sec2>.ul6>li>a>p {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
