@@ -1,0 +1,256 @@
+/* <!-- 体验报告及最新\最热 --> */
+.middle{
+    width: 1000px;
+    margin: 0 auto;
+}
+.middle>h1{
+    text-align: center;
+    padding: 34px 0 30px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.middle>.tab{
+    text-align: center;
+    line-height: 1.7;
+    font-size: 0;
+}
+.middle>.tab>a{
+    color: #a3a3a3;
+    display: inline-block;
+    padding-bottom: 12px;
+    width: 165px;
+    font-size: 18px;
+}
+/* JS要改 */
+/* .middle>.tab>a:nth-child(2){
+    color: #fe5431;
+    border-bottom: 4px #fe5431 solid;
+    padding-bottom: 8px;
+} */
+.middle>.tab>.red{
+    color: #fe5431;
+    border-bottom: 4px #fe5431 solid;
+    padding-bottom: 8px;
+}
+/* ------------------------- */
+/* 中间一大坨 */
+.big{
+    background: #f7f7f7;
+}
+.area{
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 1000px;
+}
+/* 清除浮动 */
+.area:after{
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/* ------左边的ul和li--------- */
+.listInfo{
+    width: 700px;
+}
+.list{
+    overflow: hidden;
+}
+.list>li{
+    border-radius: 6px;
+    border: 1px solid #e6e9e9;
+    margin-bottom: 13px;
+    position: relative;
+    overflow: hidden;
+}
+.list>li>a{
+    display: block;
+}
+.list>li>a>.look{
+    width: 698px;
+}
+.list>li>a>img{
+    border-radius: 6px;
+    vertical-align: top;
+    width: 700px;
+    height: 412px;
+}
+.list>li>a>.info{
+    background: rgba(255,255,255,.9);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 22px;
+}
+.list>li>a>.info>.title{
+    color: #474747;
+    font-size: 18px;
+    padding: 9px 0 12px;
+    font-weight: normal;
+}
+.list>li>a>.info>.he{
+    font-size: 13px;
+    padding: 16px 0 11px;
+}
+/* .list>li>a>.info>.he>.mixture{
+
+} */
+.list>li>a>.info>.he>.mixture>.avt{
+    background: url(../img/tx.jpg) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.list>li>a>.info>.he>.mixture>span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.list>li>a>.info>.he>.mixture>.name{
+    color: #fe695a;
+}
+.list>li>a>.info>.he>.mixture>.time{
+    color: #a3a3a3;
+}
+.list>li>a>.info>.he>.icon{
+    color: #a3a3a3;
+}
+.list>li>a>.info>.he>.icon>span{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 14px;
+    margin-left: 3px;
+}
+
+.list>li>a>.info>.he>.icon>.great{
+    background: url(../img/zan.png) no-repeat left 4px;
+}
+.list>li>a>.info>.he>.icon>.look{
+    background: url(../img/reply.png) no-repeat left center;
+}
+
+/* 加载更多 */
+.playMore{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.more-btn{
+    background: url(../img/more.png) no-repeat left center;
+    color: #fe5341;
+    padding-left: 24px;
+}
+
+
+
+/* ===========右边的极果体验师================== */
+.listR{
+    width: 270px;
+}
+/* 上半部分 */
+/* .try{
+
+} */
+.try>.title{
+    position: relative;
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+    color: #474747;
+    font-weight: normal;
+}
+.try>.title:after{
+    background: #fe5341;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 25px;
+    left: 0;
+    top: 0;
+}
+.try>.imgBox{
+    margin-top: 20px
+}
+.try>.imgBox>img{
+    vertical-align: top;
+}
+.fuli{
+    margin: 10px 0 20px;
+}
+.fuli>h5{
+    color: #474747;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.fuli>.text{
+    color: #a3a3a3;
+    font-size: 14px;
+}
+/* 下半部分 */
+.guanzhu{
+    padding-top: 40px;
+}
+.guanzhu>.title{
+    position: relative;
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+    color: #474747;
+    font-weight: normal;
+}
+.guanzhu>.title::after{
+    background: #fe5341;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 25px;
+    left: 0;
+    top: 0;
+}
+.guanzhu>.imgBox{
+    margin-top: 20px;
+}
+
+
+nav>ul>li:nth-of-type(5)>a {
+    color: #fe5341;
+}
+/* =============================== */
+.look{
+    color: #a3a3a3;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+/* 图片动画 */
+
+@keyframes start{
+    0%{
+        opacity: 0.1;
+    }
+    25%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.list>li>a:hover img{
+    animation: start 1s infinite;
+}

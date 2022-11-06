@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 头部 */
+
+nav>ul>li:nth-of-type(2)>a {
+    color: #fe5341;
+}
+
+img:hover {
+    animation: start 1.5s infinite;
+}
+
+
+/* 第一部分 */
+
+.sec1 {
+    width: 1010px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sec1>p {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sec1>a {
+    display: inline-block;
+    padding: 10px 50px;
+    transform: translate(290px, 0px);
+}
+
+.sec1>a:nth-of-type(2) {
+    border-bottom: 5px red solid;
+}
+
+
+/* 第二部分 */
+
+.sec2 {
+    width: 1010px;
+    /* height: 1000px; */
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.sec2>.div1 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sec2>.div1>a {
+    float: right;
+    padding: 0 20px;
+    font-size: 14px;
+    color: red;
+    background: url(../img/readMore.png) no-repeat 77px 20px;
+}
+
+.sec2 img {
+    width: 210px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.sec2>ul {
+    overflow: hidden;
+}
+
+.sec2>ul>li {
+    width: 210px;
+    height: 200px;
+    list-style: none;
+    float: left;
+    margin: 20px 20px;
+}
+
+.sec2>ul>li>a>p {
+    font-size: 14px;
+}
+
+.sec2>ul>li>a>p>span {
+    font-size: 12px;
+    color: #999;
+}
+
+.sec2>ul>li>a>.d1 {
+    margin-top: 10px;
+}
+
+.sec2>ul>li>a>.d1>span {
+    color: red;
+}
+
+.sec2>ul>li>a>.d1>.d2 {
+    display: inline-block;
+    float: right;
+}
+
+.sec2>ul>li>a>.d1>.d2>span {
+    font-size: 12px;
+    display: inline-block;
+    padding-left: 15px;
+    color: #999;
+}
+
+.sec2>ul>li>a>.d1>.d2>.sp1 {
+    background: url(../img/zan.png) no-repeat 0px 0px;
+}
+
+.sec2>ul>li>a>.d1>.d2>.sp2 {
+    background: url(../img/reply.png) no-repeat 0px 0px;
+}
+
+.sec2>.div2 {
+    width: 1010px;
+    height: 50px;
+}
+
+.sec2>.div2>a {
+    width: 200px;
+    height: 50px;
+    padding-left: 40px;
+    line-height: 50px;
+    color: red;
+    display: inline-block;
+    margin-left: 405px;
+    background: url(../img/more.png) no-repeat 17px 21px;
+}
