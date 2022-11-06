@@ -49,10 +49,6 @@ nav>ul>li {
     padding: 0 25px;
 }
 
-nav>ul>.on>a {
-    color: #fe5341;
-}
-
 nav>ul>li>a:hover {
     color: #fe5341;
 }
